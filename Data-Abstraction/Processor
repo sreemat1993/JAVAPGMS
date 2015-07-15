@@ -1,0 +1,17 @@
+package com.example;
+
+public class Processor extends Computing {
+
+	public void howToCompute()
+	{
+		System.out.println("Inside Processor.howToCompute()");
+	}
+	public void memMang()
+	{
+		System.out.println("Inside Processor.memMang");
+	}
+	public void processMang() 
+	{
+		System.out.println("Inside Processor.processMang");
+	}
+}
